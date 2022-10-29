@@ -1,0 +1,50 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven {
+            url "https://repo.xenondevs.xyz/releases"
+        }
+    }
+}
+
+rootProject.name = 'genshin-craft'
+
+enableFeaturePreview("VERSION_CATALOGS")
+dependencyResolutionManagement {
+    versionCatalogs {
+        create("deps") {
+            version("nova", "0.11-SNAPSHOT")
+            version("spigot", "1.19.2-R0.1-SNAPSHOT")
+
+            library("nova", "xyz.xenondevs.nova", "nova").versionRef("nova")
+            library("spigot", "org.spigotmc", "spigot").versionRef("spigot")
+        }
+    }
+}
+
+include 'genshin-craft-api'
+include 'genshin-craft-element'
+include 'genshin-craft-dungeon'
+include 'genshin-craft-item'
+include 'genshin-craft-quest'
+include 'genshin-craft-core'
+include 'genshin-craft-character'
+include 'genshin-craft-ability'
+include 'genshin-craft-map'
+include 'genshin-craft-music'
+include 'genshin-impact-event'
+include 'genshin-craft-oculus'
+include 'genshin-craft-abyss'
+include 'genshin-craft-battle-pass'
+include 'genshin-craft-entity'
+include 'genshin-impact-level'
+include 'genshin-craft-event'
+include 'genshin-craft-resource'
+include 'genshin-craft-level'
+include 'genshin-craft-waypoint'
+include 'genshin-craft-lib'
+include 'genshin-craft-npc'
+include 'genshin-craft-fishing'
+include 'genshin-craft-item:genshin-craft-item-nova'
+findProject(':genshin-craft-item:genshin-craft-item-nova')?.name = 'genshin-craft-item-nova'

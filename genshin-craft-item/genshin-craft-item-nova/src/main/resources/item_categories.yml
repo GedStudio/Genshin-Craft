@@ -1,0 +1,6 @@
+genshincraft_weapons:
+  icon: minecraft:diamond_sword
+  name: "menu.genshincraft.items.category.genshincraft_weapons"
+  priority: 0 #
+  items: #
+    - genshincraft:polar_star

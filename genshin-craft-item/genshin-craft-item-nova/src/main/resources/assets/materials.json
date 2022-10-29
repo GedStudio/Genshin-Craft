@@ -1,0 +1,226 @@
+{
+  "polar_star": {
+    "item": {
+      "models": {
+        "weapons/bows/polar_star_%s": [0, 3]
+      }
+    }
+  },
+  "amos_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/amos_bow_%s": [0, 3]
+      }
+    }
+  },
+  "aqua_simulacra": {
+    "item": {
+      "models": {
+        "weapons/bows/aqua_simulacra_%s": [0, 3]
+      }
+    }
+  },
+  "thundering_pulse": {
+    "item": {
+      "models": {
+        "weapons/bows/thundering_pulse_%s": [0, 3]
+      }
+    }
+  },
+  "elegy_for_the_end": {
+    "item": {
+      "models": {
+        "weapons/bows/elegy_for_the_end_%s": [0, 3]
+      }
+    }
+  },
+  "skyward_harp": {
+    "item": {
+      "models": {
+        "weapons/bows/skyward_harp_%s": [0, 3]
+      }
+    }
+  },
+  "hunters_path": {
+    "item": {
+      "models": {
+        "weapons/bows/hunters_path_%s": [0, 3]
+      }
+    }
+  },
+  "the_viridescent_hunt": {
+    "item": {
+      "models": {
+        "weapons/bows/the_viridescent_hun_%s": [0, 3]
+      }
+    }
+  },
+  "the_stringless": {
+    "item": {
+      "models": {
+        "weapons/bows/the_stringless_%s": [0, 3]
+      }
+    }
+  },
+  "sacrificial_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/sacrificial_bow_%s": [0, 3]
+      }
+    }
+  },
+  "rust": {
+    "item": {
+      "models": {
+        "weapons/bows/rust_%s": [0, 3]
+      }
+    }
+  },
+  "royal_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/royal_bow_%s": [0, 3]
+      }
+    }
+  },
+  "prototype_crescent": {
+    "item": {
+      "models": {
+        "weapons/bows/prototype_crescent_%s": [0, 3]
+      }
+    }
+  },
+  "predator": {
+    "item": {
+      "models": {
+        "weapons/bows/predator_%s": [0, 3]
+      }
+    }
+  },
+  "alley_hunter": {
+    "item": {
+      "models": {
+        "weapons/bows/alley_hunter_%s": [0, 3]
+      }
+    }
+  },
+  "mouuns_moon": {
+    "item": {
+      "models": {
+        "weapons/bows/mouuns_moon_%s": [0, 3]
+      }
+    }
+  },
+  "mitternachts_waltz": {
+    "item": {
+      "models": {
+        "weapons/bows/mitternachts_waltz_%s": [0, 3]
+      }
+    }
+  },
+  "blackcliff_warbow": {
+    "item": {
+      "models": {
+        "weapons/bows/blackcliff_warbow_%s": [0, 3]
+      }
+    }
+  },
+  "compound_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/compound_bow_%s": [0, 3]
+      }
+    }
+  },
+  "end_of_the_line": {
+    "item": {
+      "models": {
+        "weapons/bows/end_of_the_line_%s": [0, 3]
+      }
+    }
+  },
+  "fading_twilight": {
+    "item": {
+      "models": {
+        "weapons/bows/fading_twilight_%s": [0, 3]
+      }
+    }
+  },
+  "favonius_warbow": {
+    "item": {
+      "models": {
+        "weapons/bows/favonius_warbow_%s": [0, 3]
+      }
+    }
+  },
+  "hamayumi": {
+    "item": {
+      "models": {
+        "weapons/bows/hamayumi_%s": [0, 3]
+      }
+    }
+  },
+  "kings_squire": {
+    "item": {
+      "models": {
+        "weapons/bows/kings_squire_%s": [0, 3]
+      }
+    }
+  },
+  "windblume_ode": {
+    "item": {
+      "models": {
+        "weapons/bows/windblume_ode_%s": [0, 3]
+      }
+    }
+  },
+  "sharpshooters_oath": {
+    "item": {
+      "models": {
+        "weapons/bows/sharpshooters_oath_%s": [0, 3]
+      }
+    }
+  },
+  "recurve_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/recurve_bow_%s": [0, 3]
+      }
+    }
+  },
+  "slingshot": {
+    "item": {
+      "models": {
+        "weapons/bows/slingshot_%s": [0, 3]
+      }
+    }
+  },
+  "raven_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/raven_bow_%s": [0, 3]
+      }
+    }
+  },
+  "messenger": {
+    "item": {
+      "models": {
+        "weapons/bows/messenger_%s": [0, 3]
+      }
+    }
+  },
+  "seasoned_hunters_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/seasoned_hunters_bow_%s": [0, 3]
+      }
+    }
+  },
+  "hunters_bow": {
+    "item": {
+      "models": {
+        "weapons/bows/hunters_bow_%s": [0, 3]
+      }
+    }
+  }
+}
