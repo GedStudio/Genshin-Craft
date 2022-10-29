@@ -72,4 +72,4 @@ Because music is a core part of Genshin Impact, so we need to add the music into
 
 <h1 style="text-align: center">Donate to us!</h1>
 
-[![DeeChael's Afdian](https://github.com/DeeChael/DeeChael/blob/master/deechael_afd.png?raw=true)](DeeChael's Afdian)
+[![DeeChael's Afdian](https://github.com/DeeChael/DeeChael/blob/master/deechael_afd.png?raw=true)](https://afdian.net/a/GedStudio)
