@@ -68,6 +68,8 @@ Because music is a core part of Genshin Impact, so we need to add the music into
 <p style="text-align: center">To prevent this situation, I probably will use others' PayPal account to receive the money then draw out the money then dispense to coopers</p>
 <p style="text-align: center">You can give me your donation website link and I will put it into the description page in SpigotMC and Github</p>
 
+### If you are interested, please contact me: DeeChael@yandex.com
+
 ---
 
 <h1 style="text-align: center">Donate to us!</h1>
