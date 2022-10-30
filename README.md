@@ -63,6 +63,12 @@ Because music is a core part of Genshin Impact, so we need to add the music into
 5. You know how to use FL Studio or Musescore and how to generate midi file with them
 6. If you are not accord with No.5, if you know how to use Note Block Studio and generate nbs file with it, we will also welcome
 
+## Builder
+We also want to rebuild the whole Teyvat
+1. You can build natural environment with World Printer
+2. If you are an architect, that's better
+3. Don't distribute others architectures
+
 <h1 style="text-align: center">Attentions</h1>
 <p style="text-align: center">I want to publish this plugin on SpigotMC as a premium plugin, however, my PayPal account cannot draw out, so the salary of every coopers may be not available</p>
 <p style="text-align: center">To prevent this situation, I probably will use others' PayPal account to receive the money then draw out the money then dispense to coopers</p>
