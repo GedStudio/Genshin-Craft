@@ -6,6 +6,7 @@ group 'net.deechael'
 version '1.00.0'
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven {
         url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
@@ -14,6 +15,15 @@ repositories {
 
 dependencies {
     compileOnly "org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT"
+    compileOnly "org.spigotmc:spigot:1.19.2-R0.1-SNAPSHOT"
     compileOnly 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'
+
+    implementation 'net.deechael:Useless:1.03.1'
+
+    // NBTAPI
+    implementation project(':item-nbt-api')
+    implementation project(':nbt-data-api')
+    implementation project(':nbt-injector')
+
     annotationProcessor 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'
 }
