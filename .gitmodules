@@ -1,0 +1,3 @@
+[submodule "Item-NBT-API"]
+	path = genshin-craft-lib/item-nbt-parent
+	url = https://github.com/GedStudio/Genshin-Craft-Lib-Item-NBT-API
