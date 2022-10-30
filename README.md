@@ -1,6 +1,8 @@
-<h1 style="text-align: center;font-size: 48px">Genshin Craft</h1>
-<h2 style="text-align: center">A plugin allows you to play Genshin Impact in Minecraft</h2>
-<h3 style="text-align: center">Still in developing</h3>
+<h1 align="center" style="font-size: 48px">Genshin Craft</h1>
+<h2 align="center">A plugin allows you to play Genshin Impact in Minecraft</h2>
+<h3 align="center">Still in developing</h3>
+
+<h3 align="center">English | [简体中文](./README_CN.md)</h3>
 
 ---
 
@@ -20,7 +22,7 @@
 | Event       | To hold Genshin Impact events in Minecraft                                                                            | No               |
 | Fishing     | To add fishing system into Genshin Craft                                                                              | No               |
 | Item        | To bridge Genshin Craft and Nova and implement inventory system                                                       | No               |
- | Item Nova   | To add Items into Minecraft with Nove                                                                                 | No               |
+ | Item Nova   | To add Items into Minecraft with Nova                                                                                 | No               |
  | Level       | (Deprecated, now in Core) Adventure Rank and World Level                                                              | No               |
 | Lib         | All the libraries required by Genshin Craft are in this module, all rewrote to adjust Genshin Craft                   | Included in Core |
 | Map         | To add map system to let you know where you are conveniently                                                          | No               |
@@ -33,7 +35,7 @@
 
 ---
 
-<h1 style="text-align: center">Looking for coopers!</h1>
+<h1 align="center">Looking for coopers!</h1>
 
 ## General Requirements
 1. You are over 16 years old at least.
@@ -69,15 +71,15 @@ We also want to rebuild the whole Teyvat
 2. If you are an architect, that's better
 3. Don't distribute others architectures
 
-<h1 style="text-align: center">Attentions</h1>
-<p style="text-align: center">I want to publish this plugin on SpigotMC as a premium plugin, however, my PayPal account cannot draw out, so the salary of every coopers may be not available</p>
-<p style="text-align: center">To prevent this situation, I probably will use others' PayPal account to receive the money then draw out the money then dispense to coopers</p>
-<p style="text-align: center">You can give me your donation website link and I will put it into the description page in SpigotMC and Github</p>
+<h1 align="center">Attentions</h1>
+<p align="center">I want to publish this plugin on SpigotMC as a premium plugin, however, my PayPal account cannot draw out, so the salary of every coopers may be not available</p>
+<p align="center">To prevent this situation, I probably will use others' PayPal account to receive the money then draw out the money then dispense to coopers</p>
+<p align="center">You can give me your donation website link and I will put it into the description page in SpigotMC and Github</p>
 
 ### If you are interested, please contact me: DeeChael@yandex.com
 
 ---
 
-<h1 style="text-align: center">Donate to us!</h1>
+<h1 align="center">Donate to us!</h1>
 
 [![DeeChael's Afdian](https://github.com/DeeChael/DeeChael/blob/master/deechael_afd.png?raw=true)](https://afdian.net/a/GedStudio)
