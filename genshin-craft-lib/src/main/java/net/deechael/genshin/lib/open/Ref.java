@@ -342,6 +342,7 @@ public class Ref {
         };
     }
 
-    private Ref() {}
+    private Ref() {
+    }
 
 }

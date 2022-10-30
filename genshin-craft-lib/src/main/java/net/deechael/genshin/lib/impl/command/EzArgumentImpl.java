@@ -3,7 +3,10 @@ package net.deechael.genshin.lib.impl.command;
 import com.mojang.brigadier.arguments.ArgumentType;
 import com.mojang.brigadier.builder.RequiredArgumentBuilder;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
-import net.deechael.genshin.lib.open.command.*;
+import net.deechael.genshin.lib.open.command.CommandSenderInvoker;
+import net.deechael.genshin.lib.open.command.EzCommand;
+import net.deechael.genshin.lib.open.command.EzRegisteredCommand;
+import net.deechael.genshin.lib.open.command.PlayerInvoker;
 import net.deechael.useless.function.functions.Function;
 import net.deechael.useless.function.parameters.DuParameter;
 import net.minecraft.commands.CommandDispatcher;
@@ -12,11 +15,9 @@ import net.minecraft.commands.arguments.ArgumentEntitySummon;
 import net.minecraft.commands.synchronization.CompletionProviders;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;
 import org.bukkit.permissions.PermissionDefault;
 
-import java.util.function.BiFunction;
 import java.util.function.Predicate;
 
 public final class EzArgumentImpl implements EzCommand {

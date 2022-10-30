@@ -1,27 +1,25 @@
 package net.deechael.genshin.lib.impl.command;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
-import net.deechael.genshin.lib.open.command.*;
+import net.deechael.genshin.lib.open.command.CommandSenderInvoker;
+import net.deechael.genshin.lib.open.command.EzCommand;
+import net.deechael.genshin.lib.open.command.EzRegisteredCommand;
+import net.deechael.genshin.lib.open.command.PlayerInvoker;
 import net.deechael.useless.function.functions.Function;
 import net.minecraft.commands.CommandDispatcher;
 import net.minecraft.commands.CommandListenerWrapper;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;
 import org.bukkit.permissions.PermissionDefault;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.function.BiFunction;
 import java.util.function.Predicate;
 
 public final class EzCommandImpl implements EzCommand {
 
     private static final int SINGLE_SUCCESS = 1;
 
-    protected final LiteralArgumentBuilder<CommandListenerWrapper> literalArgumentBuilder;
+    final LiteralArgumentBuilder<CommandListenerWrapper> literalArgumentBuilder;
     private boolean registered = false;
     private EzCommandRegistered ezCommandRegistered;
 
@@ -141,7 +139,7 @@ public final class EzCommandImpl implements EzCommand {
         if (registered) return this;
         literalArgumentBuilder
                 .executes(commandContext ->
-                executes.execute(commandContext.getSource().i().getBukkitEntity(), new EzArgumentHelperImpl(commandContext)));
+                        executes.execute(commandContext.getSource().i().getBukkitEntity(), new EzArgumentHelperImpl(commandContext)));
         return this;
     }
 

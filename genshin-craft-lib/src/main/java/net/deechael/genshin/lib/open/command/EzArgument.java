@@ -32,7 +32,7 @@ public interface EzArgument {
 
     Location getAsLocation(String argumentName) throws CommandSyntaxException;
 
-    public World getAsWorld(String argumentName) throws CommandSyntaxException;
+    World getAsWorld(String argumentName) throws CommandSyntaxException;
 
     Enchantment getAsEnchantment(String argumentName) throws CommandSyntaxException;
 

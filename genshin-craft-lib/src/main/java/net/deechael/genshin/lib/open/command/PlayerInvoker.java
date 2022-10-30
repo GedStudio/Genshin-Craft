@@ -1,7 +1,6 @@
 package net.deechael.genshin.lib.open.command;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 @FunctionalInterface

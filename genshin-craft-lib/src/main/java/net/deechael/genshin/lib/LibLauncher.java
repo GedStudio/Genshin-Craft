@@ -17,7 +17,7 @@ public class LibLauncher {
         Bukkit.getPluginManager().registerEvents(new Listener() {
             @EventHandler
             public void onCommand(org.bukkit.event.server.ServerCommandEvent event) {
-                if(event.getCommand().toLowerCase().startsWith("reload")) {
+                if (event.getCommand().toLowerCase().startsWith("reload")) {
                     event.setCancelled(true);
                     event.getSender().sendMessage("[Genshin Craft] The plugin is not supported with \"/reload\" commnad, please restart the server if you want to reload!");
                 }
@@ -25,7 +25,7 @@ public class LibLauncher {
 
             @EventHandler
             public void onCommand(org.bukkit.event.player.PlayerCommandPreprocessEvent event) {
-                if(event.getMessage().toLowerCase().startsWith("/reload")) {
+                if (event.getMessage().toLowerCase().startsWith("/reload")) {
                     event.setCancelled(true);
                     event.getPlayer().sendMessage("[Genshin Craft] The plugin is not supported with \"/reload\" commnad, please restart the server if you want to reload!");
                 }

@@ -3,7 +3,6 @@ package net.deechael.genshin.lib.impl.command;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.tree.CommandNode;
 import com.mojang.brigadier.tree.LiteralCommandNode;
-import com.mojang.brigadier.tree.RootCommandNode;
 import net.deechael.genshin.lib.open.Ref;
 import net.deechael.genshin.lib.open.command.EzCommand;
 import net.deechael.genshin.lib.open.command.EzCommandManager;
@@ -23,7 +22,6 @@ import org.bukkit.permissions.Permission;
 import org.bukkit.permissions.PermissionDefault;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -32,7 +30,7 @@ import java.util.Map;
 public final class EzCommandManagerImpl implements Listener, EzCommandManager {
 
     private final static Field KNOWN_COMMANDS_FIELD;
-    
+
     static {
         try {
             KNOWN_COMMANDS_FIELD = SimpleCommandMap.class.getDeclaredField("knownCommands");
