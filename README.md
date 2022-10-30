@@ -2,7 +2,7 @@
 <h2 align="center">A plugin allows you to play Genshin Impact in Minecraft</h2>
 <h3 align="center">Still in developing</h3>
 
-<h3 align="center">English | [简体中文](README_CN.md)</h3>
+<h3 align="center">English | <a href="README_CN.md">简体中文</a></h3>
 
 ---
 

@@ -2,7 +2,7 @@
 <h2 align="center">一个允许你在Minecraft里游玩原神的插件</h2>
 <h3 align="center">仍在开发中，征集中文译名</h3>
 
-<h3 align="center">[English](README.md) | 简体中文</h3>
+<h3 align="center"><a href="README.md">English</a> | 简体中文</h3>
 
 ---
 
