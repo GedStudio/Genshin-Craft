@@ -1,10 +1,11 @@
-package net.deechael.genshin;
+package net.deechael.genshin.impl;
 
 import net.deechael.genshin.api.player.AdventureRanks;
+import net.deechael.genshin.api.player.GenshinProfile;
 
 import java.util.UUID;
 
-public class GenshinProfile {
+public class GenshinProfileImpl implements GenshinProfile {
 
     private final int uid;
     private final UUID uuid;
@@ -19,15 +20,15 @@ public class GenshinProfile {
     private boolean ascensionQuest_4;
     private int originalResin;
 
-    public GenshinProfile(int uid,
-                          String uuid,
-                          int adventureExp,
-                          boolean worldLevelDropped,
-                          long mora,
-                          int primogem,
-                          int genesisCrystal,
-                          String ascensionQuests,
-                          int originalResin
+    public GenshinProfileImpl(int uid,
+                              String uuid,
+                              int adventureExp,
+                              boolean worldLevelDropped,
+                              long mora,
+                              int primogem,
+                              int genesisCrystal,
+                              String ascensionQuests,
+                              int originalResin
                           ) {
         this.uid = uid;
         this.uuid = UUID.fromString(uuid);
@@ -49,6 +50,11 @@ public class GenshinProfile {
 
     public UUID getUuid() {
         return uuid;
+    }
+
+    @Override
+    public UUID getUniqueId() {
+        return getUuid();
     }
 
     public int getAdventureExp() {

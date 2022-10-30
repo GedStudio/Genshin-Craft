@@ -4,7 +4,7 @@ import cc.carm.lib.easysql.EasySQL;
 import cc.carm.lib.easysql.api.SQLManager;
 import cc.carm.lib.easysql.api.SQLQuery;
 import cc.carm.lib.easysql.hikari.HikariConfig;
-import net.deechael.genshin.GenshinProfile;
+import net.deechael.genshin.impl.GenshinProfileImpl;
 import net.deechael.genshin.GsCorePlugin;
 
 import static net.deechael.genshin.GsCorePlugin.logger;
@@ -201,7 +201,7 @@ public final class SqliteStorage {
         }
     }
 
-    public GenshinProfile getProfileByUID(int uid) {
+    public GenshinProfileImpl getProfileByUID(int uid) {
         try {
             SQLQuery query = sqlManager.createQuery()
                     .inTable("genshin_profiles")
@@ -220,7 +220,7 @@ public final class SqliteStorage {
             ResultSet resultSet = query.getResultSet();
             if (!resultSet.next())
                 logger().error("Failed to get profile by uid", new RuntimeException("Failed to get profile by uid"));
-            GenshinProfile profile = new GenshinProfile(
+            GenshinProfileImpl profile = new GenshinProfileImpl(
                     resultSet.getInt("UID"),
                     resultSet.getString("UUID"),
                     resultSet.getInt("ADVENTURE_EXP"),
@@ -238,7 +238,7 @@ public final class SqliteStorage {
         }
     }
 
-    public GenshinProfile getProfileByUUID(UUID uuid) {
+    public GenshinProfileImpl getProfileByUUID(UUID uuid) {
         String uuidString = uuid.toString();
         try {
             SQLQuery query = sqlManager.createQuery()
@@ -258,7 +258,7 @@ public final class SqliteStorage {
             ResultSet resultSet = query.getResultSet();
             if (!resultSet.next())
                 logger().error("Failed to get profile by uuid", new RuntimeException("Failed to get profile by uuid"));
-            GenshinProfile profile = new GenshinProfile(
+            GenshinProfileImpl profile = new GenshinProfileImpl(
                     resultSet.getInt("UID"),
                     resultSet.getString("UUID"),
                     resultSet.getInt("ADVENTURE_EXP"),

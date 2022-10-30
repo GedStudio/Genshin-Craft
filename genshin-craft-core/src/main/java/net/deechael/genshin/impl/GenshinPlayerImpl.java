@@ -1,6 +1,5 @@
 package net.deechael.genshin.impl;
 
-import net.deechael.genshin.GenshinProfile;
 import net.deechael.genshin.api.player.GenshinPlayer;
 import org.bukkit.entity.Player;
 
@@ -9,11 +8,16 @@ import java.util.UUID;
 public class GenshinPlayerImpl implements GenshinPlayer {
 
     private final Player player;
-    private final GenshinProfile profile;
+    private final GenshinProfileImpl profile;
 
-    public GenshinPlayerImpl(Player player, GenshinProfile profile) {
+    public GenshinPlayerImpl(Player player, GenshinProfileImpl profile) {
         this.player = player;
         this.profile = profile;
+    }
+
+    @Override
+    public GenshinProfileImpl getProfile() {
+        return profile;
     }
 
     @Override

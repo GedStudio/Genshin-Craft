@@ -2,9 +2,7 @@ package net.deechael.genshin.api.player;
 
 import java.util.UUID;
 
-public interface GenshinPlayer {
-
-    GenshinProfile getProfile();
+public interface GenshinProfile {
 
     int getUid();
 
