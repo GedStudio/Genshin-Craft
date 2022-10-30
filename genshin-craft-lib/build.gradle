@@ -11,6 +11,9 @@ repositories {
     maven {
         url "https://hub.spigotmc.org/nexus/content/repositories/snapshots/"
     }
+    maven {
+        url "https://repo.codemc.org/repository/maven-public/"
+    }
 }
 
 dependencies {
@@ -24,6 +27,9 @@ dependencies {
     implementation project(':item-nbt-api')
     implementation project(':nbt-data-api')
     implementation project(':nbt-injector')
+
+    // Particle Lib
+    implementation project(':particle-lib')
 
     annotationProcessor 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'
 }

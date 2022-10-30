@@ -1,7 +1,9 @@
 package net.deechael.genshin.lib;
 
+import net.deechael.genshin.lib.open.command.EzCommandManager;
 import net.deechael.genshin.lib.open.nbt.injector.NBTInjector;
 import net.deechael.genshin.lib.open.nbt.utils.MinecraftVersion;
+import net.deechael.genshin.lib.open.particle.utils.ReflectionUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -10,10 +12,15 @@ import org.bukkit.plugin.Plugin;
 public class LibLauncher {
 
     public static void load(Plugin genshinCraftCore) {
-        NBTInjector.inject();
+        NBTInjector.inject(); // NBT API
     }
 
     public static void enable(Plugin genshinCraftCore) {
+        ReflectionUtils.setPlugin(genshinCraftCore); // Particle Lib
+
+        Bukkit.getPluginManager().registerEvents((Listener) EzCommandManager.getManager(), genshinCraftCore);
+
+        // NBT API start
         Bukkit.getPluginManager().registerEvents(new Listener() {
             @EventHandler
             public void onCommand(org.bukkit.event.server.ServerCommandEvent event) {
@@ -32,6 +39,7 @@ public class LibLauncher {
             }
         }, genshinCraftCore);
         MinecraftVersion.getVersion();
+        // NBT API end
     }
 
 }

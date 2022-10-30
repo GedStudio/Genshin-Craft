@@ -1,3 +1,6 @@
 [submodule "genshin-craft-lib/item-nbt-parent"]
 	path = genshin-craft-lib/item-nbt-parent
 	url = https://github.com/GedStudio/Genshin-Craft-Lib-Item-NBT-API
+[submodule "genshin-craft-lib/particle-lib"]
+	path = genshin-craft-lib/particle-lib
+	url = https://github.com/GedStudio/Genshin-Craft-Lib-ParticleLib

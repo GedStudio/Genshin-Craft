@@ -50,7 +50,9 @@ include 'genshin-craft-item:genshin-craft-item-nova'
 include 'item-nbt-api'
 include 'nbt-data-api'
 include 'nbt-injector'
+include 'particle-lib'
 findProject(':genshin-craft-item:genshin-craft-item-nova')?.name = 'genshin-craft-item-nova'
 project(':item-nbt-api').projectDir = new File("./genshin-craft-lib/item-nbt-parent/item-nbt-api")
 project(':nbt-data-api').projectDir = new File("./genshin-craft-lib/item-nbt-parent/nbt-data-api")
 project(':nbt-injector').projectDir = new File("./genshin-craft-lib/item-nbt-parent/nbt-injector")
+project(':particle-lib').projectDir = new File("./genshin-craft-lib/particle-lib")
