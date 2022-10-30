@@ -22,8 +22,8 @@
 | Event       | To hold Genshin Impact events in Minecraft                                                                            | No               |
 | Fishing     | To add fishing system into Genshin Craft                                                                              | No               |
 | Item        | To bridge Genshin Craft and Nova and implement inventory system                                                       | No               |
- | Item Nova   | To add Items into Minecraft with Nova                                                                                 | No               |
- | Level       | (Deprecated, now in Core) Adventure Rank and World Level                                                              | No               |
+| Item Nova   | To add Items into Minecraft with Nova                                                                                 | No               |
+| Level       | (Deprecated, now in Core) Adventure Rank and World Level                                                              | No               |
 | Lib         | All the libraries required by Genshin Craft are in this module, all rewrote to adjust Genshin Craft                   | Included in Core |
 | Map         | To add map system to let you know where you are conveniently                                                          | No               |
 | Music       | To add music and sounds into Genshin Craft                                                                            | No               |
