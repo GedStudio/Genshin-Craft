@@ -5,9 +5,14 @@ import net.deechael.genshin.lib.open.nbt.injector.NBTInjector;
 import net.deechael.genshin.lib.open.nbt.utils.MinecraftVersion;
 import net.deechael.genshin.lib.open.particle.utils.ReflectionUtils;
 import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Paths;
 
 public class LibLauncher {
 
@@ -16,9 +21,22 @@ public class LibLauncher {
     }
 
     public static void enable(Plugin genshinCraftCore) {
+
+        // Entity start
+        FileConfiguration spigotConfig = Bukkit.getServer().spigot().getConfig();
+        if (spigotConfig.getDouble("settings.attribute.maxHealth.max") < 100000000) {
+            spigotConfig.set("settings.attribute.maxHealth.max", 100000000);
+            try {
+                File spigotConfigContainer = new File("./spigot.yml");
+                spigotConfig.save(spigotConfigContainer);
+            } catch (IOException ignored) {
+            }
+        }
+        // Entity end
+
         ReflectionUtils.setPlugin(genshinCraftCore); // Particle Lib
 
-        Bukkit.getPluginManager().registerEvents((Listener) EzCommandManager.getManager(), genshinCraftCore);
+        Bukkit.getPluginManager().registerEvents((Listener) EzCommandManager.getManager(), genshinCraftCore); // Command API
 
         // NBT API start
         Bukkit.getPluginManager().registerEvents(new Listener() {
