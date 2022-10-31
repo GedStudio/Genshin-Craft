@@ -12,9 +12,14 @@ import org.bukkit.plugin.Plugin;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Paths;
 
 public class LibLauncher {
+
+    private static Plugin genshinCraftCore;
+
+    public static Plugin getCore() {
+        return genshinCraftCore;
+    }
 
     public static void load(Plugin genshinCraftCore) {
         NBTInjector.inject(); // NBT API

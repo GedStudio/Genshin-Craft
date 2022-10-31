@@ -222,5 +222,34 @@
         "weapons/bows/hunters_bow_%s": [0, 3]
       }
     }
-  }
+  },
+  "a_thousand_floating_dreams": "weapons/catalysts/a_thousand_floating_dreams",
+  "memory_of_dust": "weapons/catalysts/",
+  "everlasting_moonglow": "weapons/catalysts/",
+  "skyward_atlas": "weapons/catalysts/",
+  "kaguras_verity": "weapons/catalysts/",
+  "lost_prayer_to_the_sacred_winds": "weapons/catalysts/",
+  "wandering_evenstar": "weapons/catalysts/",
+  "the_widsith": "weapons/catalysts/",
+  "solar_pearl": "weapons/catalysts/",
+  "sacrificial_fragments": "weapons/catalysts/",
+  "royal_grimoire": "weapons/catalysts/",
+  "prototype_amber": "weapons/catalysts/",
+  "oathsworn_eye": "weapons/catalysts/",
+  "mappa_mare": "weapons/catalysts/",
+  "hakushin_ring": "weapons/catalysts/",
+  "fruit_of_fulfillment": "weapons/catalysts/",
+  "frostbearer": "weapons/catalysts/",
+  "favonius_codex": "weapons/catalysts/",
+  "eye_of_perception": "weapons/catalysts/",
+  "dodoco_tales": "weapons/catalysts/",
+  "blackcliff_agate": "weapons/catalysts/",
+  "wine_and_song": "weapons/catalysts/",
+  "magic_guide": "weapons/catalysts/",
+  "otherworldly_story": "weapons/catalysts/",
+  "emerald_orb": "weapons/catalysts/",
+  "thrilling_tales_of_dragon_slayers": "weapons/catalysts/",
+  "twin_nephrite": "weapons/catalysts/",
+  "pocket_grimoire": "weapons/catalysts/",
+  "apprentices_notes": "weapons/catalysts/"
 }

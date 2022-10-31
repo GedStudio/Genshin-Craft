@@ -21,6 +21,15 @@ repositories {
 }
 
 dependencies {
+    compileOnly(project(":genshin-craft-core")) {
+        exclude("org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT")
+        exclude("org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT")
+    }
+    compileOnly(project(":genshin-craft-lib")) {
+        exclude("org.spigotmc:spigot-api:1.19.2-R0.1-SNAPSHOT")
+        exclude("org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT")
+        exclude("org.spigotmc:spigot:1.19.2-R0.1-SNAPSHOT")
+    }
     implementation(deps.nova)
     implementation(variantOf(deps.spigot) { classifier("remapped-mojang") })
 }
