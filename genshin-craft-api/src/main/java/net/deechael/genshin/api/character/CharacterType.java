@@ -37,6 +37,7 @@ public enum CharacterType {
     KUKI_SHINOBU(4, ElementType.ELECTRO),
     LISA(4, ElementType.ELECTRO),
     MONA(5, ElementType.HYDRO),
+    NAHIDA(5, ElementType.DENDRO), // 3.2
     NILOU(5, ElementType.HYDRO),
     NINGGUANG(5, ElementType.GEO),
     NOELLE(4, ElementType.GEO),

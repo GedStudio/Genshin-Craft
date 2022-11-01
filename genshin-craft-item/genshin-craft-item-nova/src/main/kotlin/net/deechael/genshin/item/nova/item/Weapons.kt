@@ -1,4 +1,4 @@
-package net.deechael.genshin.item.nova
+package net.deechael.genshin.item.nova.item
 
 import net.deechael.genshin.item.nova.NovaUtils.regDefault
 import net.deechael.genshin.item.nova.behaviour.BowItemBehaviour

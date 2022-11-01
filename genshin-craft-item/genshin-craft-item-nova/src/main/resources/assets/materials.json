@@ -1,4 +1,234 @@
 {
+  "wanderers_advice": "development/wanderers_advice",
+  "adventures_experience": "development/adventures_experience",
+  "heros_wit": "development/heros_wit",
+
+
+
+
+  "enhancement_ore": "weapons/enhancement_ore",
+  "fine_enhancement_ore": "weapons/fine_enhancement_ore",
+  "mythic_enhancement_ore": "weapons/mythic_enhancement_ore",
+
+
+
+
+  "brilliant_diamond_silver": "development/ascension/brilliant_diamond_sliver",
+  "brilliant_diamond_fragment": "development/ascension/brilliant_diamond_fragment",
+  "brilliant_diamond_chunk": "development/ascension/brilliant_diamond_chunk",
+  "brilliant_diamond_gemstone": "development/ascension/brilliant_diamond_gemstone",
+  "agnidus_agate_silver": "development/ascension/agnidus_agate_sliver",
+  "agnidus_agate_fragment": "development/ascension/agnidus_agate_fragment",
+  "agnidus_agate_chunk": "development/ascension/agnidus_agate_chunk",
+  "agnidus_agate_gemstone": "development/ascension/agnidus_agate_gemstone",
+  "varunada_lazurite_silver": "development/ascension/varunada_lazurite_sliver",
+  "varunada_lazurite_fragment": "development/ascension/varunada_lazurite_fragment",
+  "varunada_lazurite_chunk": "development/ascension/varunada_lazurite_chunk",
+  "varunada_lazurite_gemstone": "development/ascension/varunada_lazurite_gemstone",
+  "nagadus_emerald_silver": "development/ascension/nagadus_emerald_sliver",
+  "nagadus_emerald_fragment": "development/ascension/nagadus_emerald_fragment",
+  "nagadus_emerald_chunk": "development/ascension/nagadus_emerald_chunk",
+  "nagadus_emerald_gemstone": "development/ascension/nagadus_emerald_gemstone",
+  "vajrada_amethyst_silver": "development/ascension/vajrada_amethyst_sliver",
+  "vajrada_amethyst_fragment": "development/ascension/vajrada_amethyst_fragment",
+  "vajrada_amethyst_chunk": "development/ascension/vajrada_amethyst_chunk",
+  "vajrada_amethyst_gemstone": "development/ascension/vajrada_amethyst_gemstone",
+  "vayuda_turquoise_silver": "development/ascension/vayuda_turquoise_sliver",
+  "vayuda_turquoise_fragment": "development/ascension/vayuda_turquoise_fragment",
+  "vayuda_turquoise_chunk": "development/ascension/vayuda_turquoise_chunk",
+  "vayuda_turquoise_gemstone": "development/ascension/vayuda_turquoise_gemstone",
+  "shivada_jade_silver": "development/ascension/shivada_jade_sliver",
+  "shivada_jade_fragment": "development/ascension/shivada_jade_fragment",
+  "shivada_jade_chunk": "development/ascension/shivada_jade_chunk",
+  "shivada_jade_gemstone": "development/ascension/shivada_jade_gemstone",
+  "prithiva_topaz_silver": "development/ascension/prithiva_topaz_sliver",
+  "prithiva_topaz_fragment": "development/ascension/prithiva_topaz_fragment",
+  "prithiva_topaz_chunk": "development/ascension/prithiva_topaz_chunk",
+  "prithiva_topaz_gemstone": "development/ascension/prithiva_topaz_gemstone",
+
+
+
+
+  "hurricane_seed": "development/boss/hurricane_seed",
+  "lightning_prism": "development/boss/lightning_prism",
+  "basalt_pillar": "development/boss/basalt_pillar",
+  "hoarfrost_core": "development/boss/hoarfrost_core",
+  "everflame_seed": "development/boss/everflame_seed",
+  "cleansing_heart": "development/boss/cleansing_heart",
+  "juvenile_jade": "development/boss/juvenile_jade",
+  "crystalline_bloom": "development/boss/crystalline_bloom",
+  "marionette_core": "development/boss/marionette_core",
+  "perpetual_heart": "development/boss/perpetual_heart",
+  "smoldering_pearl": "development/boss/smoldering_pearl",
+  "dew_of_repudiation": "development/boss/dew_of_repudiation",
+  "storm_beads": "development/boss/storm_beads",
+  "riftborn_regalia": "development/boss/riftborn_regalia",
+  "dragonheirs_false_fin": "development/boss/dragonheirs_false_fin",
+  "runic_fang": "development/boss/runic_fang",
+  "majestic_hooked_beak": "development/boss/majestic_hooked_beak",
+  "thunderclap_fruitcore": "development/boss/thunderclap_fruitcore",
+  "perpetual_caliber": "development/boss/perpetual_caliber",
+  "light_guiding_tetrahedron": "development/boss/light_guiding_tetrahedron",
+  "quelled_creeper": "development/boss/quelled_creeper",
+
+
+
+
+  "dvalins_plume": "development/boss/weekly/dvalins_plume",
+  "dvalins_claw": "development/boss/weekly/dvalins_claw",
+  "dvalins_sigh": "development/boss/weekly/dvalins_sigh",
+
+  "tail_of_boreas": "development/boss/weekly/tail_of_boreas",
+  "ring_of_boreas": "development/boss/weekly/ring_of_boreas",
+  "spirit_locket_of_boreas": "development/boss/weekly/spirit_locket_of_boreas",
+
+  "tusk_of_monoceros_caeli": "development/boss/weekly/tusk_of_monoceros_caeli",
+  "shard_of_a_foul_legacy": "development/boss/weekly/shard_of_a_foul_legacy",
+  "shadow_of_the_winter": "development/boss/weekly/shadow_of_the_winter",
+
+  "dragon_lords_crown": "development/boss/weekly/dragon_lords_crown",
+  "bloodjade_branch": "development/boss/weekly/bloodjade_branch",
+  "gilded_scale": "development/boss/weekly/gilded_scale",
+
+  "molten_moment": "development/boss/weekly/molten_moment",
+  "hellfire_butterfly": "development/boss/weekly/hellfire_butterfly",
+  "ashen_heart": "development/boss/weekly/ashen_heart",
+
+  "mudra_of_the_malefic_general": "development/boss/weekly/mudra_of_the_malefic_general",
+  "tears_of_the_calamitous_god": "development/boss/weekly/tears_of_the_calamitous_god",
+  "the_meaning_of_aeons": "development/boss/weekly/the_meaning_of_aeons",
+
+
+
+
+  "slime_condensate": "development/drops/common/slime_condensate",
+  "slime_secretions": "development/drops/common/slime_secretions",
+  "slime_concentrate": "development/drops/common/slime_concentrate",
+  "damaged_mask": "development/drops/common/damaged_mask",
+  "stained_mask": "development/drops/common/stained_mask",
+  "ominous_mask": "development/drops/common/ominous_mask",
+  "divining_scroll": "development/drops/common/divining_scroll",
+  "sealed_scroll": "development/drops/common/sealed_scroll",
+  "forbidden_curse_scroll": "development/drops/common/forbidden_curse_scroll",
+  "firm_arrowhead": "development/drops/common/firm_arrowhead",
+  "sharp_arrowhead": "development/drops/common/sharp_arrowhead",
+  "weathered_arrowhead": "development/drops/common/weathered_arrowhead",
+  "recruits_insignia": "development/drops/common/recruits_insignia",
+  "sergeants_insignia": "development/drops/common/sergeants_insignia",
+  "lieutenants_insignia": "development/drops/common/lieutenants_insignia",
+  "treasure_hoarder_insignia": "development/drops/common/treasure_hoarder_insignia",
+  "silver_raven_insignia": "development/drops/common/silver_raven_insignia",
+  "golden_raven_insignia": "development/drops/common/golden_raven_insignia",
+  "whopperflower_nectar": "development/drops/common/whopperflower_nectar",
+  "shimmering_nectar": "development/drops/common/shimmering_nectar",
+  "energy_nectar": "development/drops/common/energy_nectar",
+  "old_handguard": "development/drops/common/old_handguard",
+  "kageuchi_handguard": "development/drops/common/kageuchi_handguard",
+  "famed_handguard": "development/drops/common/famed_handguard",
+  "spectral_husk": "development/drops/common/spectral_husk",
+  "spectral_heart": "development/drops/common/spectral_heart",
+  "spectral_nucleus": "development/drops/common/spectral_nucleus",
+  "fungal_spores": "development/drops/common/fungal_spores",
+  "luminescent_pollen": "development/drops/common/luminescent_pollen",
+  "crystalline_cyst_dust": "development/drops/common/crystalline_cyst_dust",
+  "faded_red_satin": "development/drops/common/faded_red_satin",
+  "trimmed_red_silk": "development/drops/common/trimmed_red_silk",
+  "rich_red_brocade": "development/drops/common/rich_red_brocade",
+
+  "heavy_horn": "development/drops/elite/heavy_horn",
+  "black_bronze_horn": "development/drops/elite/black_bronze_horn",
+  "black_crystal_horn": "development/drops/elite/black_crystal_horn",
+  "dead_ley_line_branch": "development/drops/elite/dead_ley_line_branch",
+  "dead_ley_line_leaves": "development/drops/elite/dead_ley_line_leaves",
+  "dead_ley_line_sprout": "development/drops/elite/dead_ley_line_sprout",
+  "chaos_device": "development/drops/elite/chaos_device",
+  "chaos_circuit": "development/drops/elite/chaos_circuit",
+  "chaos_core": "development/drops/elite/chaos_core",
+  "mist_grass_pollen": "development/drops/elite/mist_grass_pollen",
+  "mist_grass": "development/drops/elite/mist_grass",
+  "mist_grass_wick": "development/drops/elite/mist_grass_wick",
+  "hunters_sacrificial_knife": "development/drops/elite/hunters_sacrificial_knife",
+  "agents_sacrificial_knife": "development/drops/elite/agents_sacrificial_knife",
+  "inspectors_sacrificial_knife": "development/drops/elite/inspectors_sacrificial_knife",
+  "fragile_bone_shard": "development/drops/elite/fragile_bone_shard",
+  "sturdy_bone_shard": "development/drops/elite/sturdy_bone_shard",
+  "fossilized_bone_shard": "development/drops/elite/fossilized_bone_shard",
+  "chaos_gear": "development/drops/elite/chaos_gear",
+  "choas_axis": "development/drops/elite/choas_axis",
+  "chaos_oculus": "development/drops/elite/chaos_oculus",
+  "dismal_prism": "development/drops/elite/dismal_prism",
+  "crystal_prism": "development/drops/elite/crystal_prism",
+  "polarizing_prism": "development/drops/elite/polarizing_prism",
+  "concealed_claw": "development/drops/elite/concealed_claw",
+  "concealed_unguis": "development/drops/elite/concealed_unguis",
+  "concealed_talon": "development/drops/elite/concealed_talon",
+  "gloomy_statuette": "development/drops/elite/gloomy_statuette",
+  "dark_statuette": "development/drops/elite/dark_statuette",
+  "deathly_statuette": "development/drops/elite/deathly_statuette",
+  "inactivated_fungal_nucleus": "development/drops/elite/inactivated_fungal_nucleus",
+  "dormant_fungal_nucleus": "development/drops/elite/dormant_fungal_nucleus",
+  "robust_fungal_nucleus": "development/drops/elite/robust_fungal_nucleus",
+  "chaos_storage": "development/drops/elite/chaos_storage",
+  "chaos_module": "development/drops/elite/chaos_module",
+  "chaos_bolt": "development/drops/elite/chaos_bolt",
+  "damaged_prism": "development/drops/elite/damaged_prism",
+  "turbid_prism": "development/drops/elite/turbid_prism",
+  "radiant_prism": "development/drops/elite/radiant_prism",
+
+
+
+
+  "teachings_of_freedom": "development/talent/teachings_of_freedom",
+  "guide_of_freedom": "development/talent/guide_of_freedom",
+  "philosophies_of_freedom": "development/talent/philosophies_of_freedom",
+
+  "teachings_of_resistance": "development/talent/teachings_of_resistance",
+  "guide_of_resistance": "development/talent/guide_of_resistance",
+  "philosophies_of_resistance": "development/talent/philosophies_of_resistance",
+
+  "teachings_of_ballad": "development/talent/teachings_of_ballad",
+  "guide_of_ballad": "development/talent/guide_of_ballad",
+  "philosophies_of_ballad": "development/talent/philosophies_of_ballad",
+
+  "teachings_of_prosperity": "development/talent/teachings_of_prosperity",
+  "guide_of_prosperity": "development/talent/guide_of_prosperity",
+  "philosophies_of_prosperity": "development/talent/philosophies_of_prosperity",
+
+  "teachings_of_diligence": "development/talent/teachings_of_diligence",
+  "guide_of_diligence": "development/talent/guide_of_diligence",
+  "philosophies_of_diligence": "development/talent/philosophies_of_diligence",
+
+  "teachings_of_gold": "development/talent/teachings_of_gold",
+  "guide_of_gold": "development/talent/guide_of_gold",
+  "philosophies_of_gold": "development/talent/philosophies_of_gold",
+
+  "teachings_of_transience": "development/talent/teachings_of_transience",
+  "guide_of_transience": "development/talent/guide_of_transience",
+  "philosophies_of_transience": "development/talent/philosophies_of_transience",
+
+  "teachings_of_elegance": "development/talent/teachings_of_elegance",
+  "guide_of_elegance": "development/talent/guide_of_elegance",
+  "philosophies_of_elegance": "development/talent/philosophies_of_elegance",
+
+  "teachings_of_light": "development/talent/teachings_of_light",
+  "guide_of_light": "development/talent/guide_of_light",
+  "philosophies_of_light": "development/talent/philosophies_of_light",
+
+  "teachings_of_admonition": "development/talent/teachings_of_admonition",
+  "guide_of_admonition": "development/talent/guide_of_admonition",
+  "philosophies_of_admonition": "development/talent/philosophies_of_admonition",
+
+  "teachings_of_ingenuity": "development/talent/teachings_of_ingenuity",
+  "guide_of_ingenuity": "development/talent/guide_of_ingenuity",
+  "philosophies_of_ingenuity": "development/talent/philosophies_of_ingenuity",
+
+  "teachings_of_praxis": "development/talent/teachings_of_praxis",
+  "guide_of_praxis": "development/talent/guide_of_praxis",
+  "philosophies_of_praxis": "development/talent/philosophies_of_praxis",
+
+
+
+
   "polar_star": {
     "item": {
       "models": {
@@ -223,33 +453,37 @@
       }
     }
   },
+
+
+
+
   "a_thousand_floating_dreams": "weapons/catalysts/a_thousand_floating_dreams",
-  "memory_of_dust": "weapons/catalysts/",
-  "everlasting_moonglow": "weapons/catalysts/",
-  "skyward_atlas": "weapons/catalysts/",
-  "kaguras_verity": "weapons/catalysts/",
-  "lost_prayer_to_the_sacred_winds": "weapons/catalysts/",
-  "wandering_evenstar": "weapons/catalysts/",
-  "the_widsith": "weapons/catalysts/",
-  "solar_pearl": "weapons/catalysts/",
-  "sacrificial_fragments": "weapons/catalysts/",
-  "royal_grimoire": "weapons/catalysts/",
-  "prototype_amber": "weapons/catalysts/",
-  "oathsworn_eye": "weapons/catalysts/",
-  "mappa_mare": "weapons/catalysts/",
-  "hakushin_ring": "weapons/catalysts/",
-  "fruit_of_fulfillment": "weapons/catalysts/",
-  "frostbearer": "weapons/catalysts/",
-  "favonius_codex": "weapons/catalysts/",
-  "eye_of_perception": "weapons/catalysts/",
-  "dodoco_tales": "weapons/catalysts/",
-  "blackcliff_agate": "weapons/catalysts/",
-  "wine_and_song": "weapons/catalysts/",
-  "magic_guide": "weapons/catalysts/",
-  "otherworldly_story": "weapons/catalysts/",
-  "emerald_orb": "weapons/catalysts/",
-  "thrilling_tales_of_dragon_slayers": "weapons/catalysts/",
-  "twin_nephrite": "weapons/catalysts/",
-  "pocket_grimoire": "weapons/catalysts/",
-  "apprentices_notes": "weapons/catalysts/"
+  "memory_of_dust": "weapons/catalysts/memory_of_dust",
+  "everlasting_moonglow": "weapons/catalysts/everlasting_moonglow",
+  "skyward_atlas": "weapons/catalysts/skyward_atlas",
+  "kaguras_verity": "weapons/catalysts/kaguras_verity",
+  "lost_prayer_to_the_sacred_winds": "weapons/catalysts/lost_prayer_to_the_sacred_winds",
+  "wandering_evenstar": "weapons/catalysts/wandering_evenstar",
+  "the_widsith": "weapons/catalysts/the_widsith",
+  "solar_pearl": "weapons/catalysts/solar_pearl",
+  "sacrificial_fragments": "weapons/catalysts/sacrificial_fragments",
+  "royal_grimoire": "weapons/catalysts/royal_grimoire",
+  "prototype_amber": "weapons/catalysts/prototype_amber",
+  "oathsworn_eye": "weapons/catalysts/oathsworn_eye",
+  "mappa_mare": "weapons/catalysts/mappa_mare",
+  "hakushin_ring": "weapons/catalysts/hakushin_ring",
+  "fruit_of_fulfillment": "weapons/catalysts/fruit_of_fulfillment",
+  "frostbearer": "weapons/catalysts/frostbearer",
+  "favonius_codex": "weapons/catalysts/favonius_codex",
+  "eye_of_perception": "weapons/catalysts/eye_of_perception",
+  "dodoco_tales": "weapons/catalysts/dodoco_tales",
+  "blackcliff_agate": "weapons/catalysts/blackcliff_agate",
+  "wine_and_song": "weapons/catalysts/wine_and_song",
+  "magic_guide": "weapons/catalysts/magic_guide",
+  "otherworldly_story": "weapons/catalysts/otherworldly_story",
+  "emerald_orb": "weapons/catalysts/emerald_orb",
+  "thrilling_tales_of_dragon_slayers": "weapons/catalysts/thrilling_tales_of_dragon_slayers",
+  "twin_nephrite": "weapons/catalysts/twin_nephrite",
+  "pocket_grimoire": "weapons/catalysts/pocket_grimoire",
+  "apprentices_notes": "weapons/catalysts/apprentices_notes"
 }

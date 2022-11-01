@@ -1,6 +1,12 @@
 genshincraft_weapons:
   icon: minecraft:diamond_sword
   name: "menu.genshincraft.items.category.genshincraft_weapons"
-  priority: 0 #
-  items: #
+  priority: 0
+  items:
     - genshincraft:polar_star
+
+genshincraft_development:
+  icon: minecraft:stick
+  name: "menu.genshincraft.items.category.genshincraft_development"
+  priority: 0
+  items: []

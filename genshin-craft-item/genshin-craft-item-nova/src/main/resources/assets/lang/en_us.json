@@ -1,5 +1,14 @@
 {
   "menu.genshincraft.items.category.genshincraft_weapons": "Genshin Craft | Weapons",
+  "menu.genshincraft.items.category.genshincraft_development": "Genshin Craft | Development",
+
+  "item.genshincraft.wanderers_advice": "Wanderer's Advice",
+  "item.genshincraft.adventurers_experience": "Adventurer's Experience",
+  "item.genshincraft.heros_wit": "Hero's Wit",
+
+  "item.genshincraft.enhancement_ore": "Enhancement Ore",
+  "item.genshincraft.fine_enhancement_ore": "Fine Enhancement Ore",
+  "item.genshincraft.mythic_enhancement_ore": "Mythic Enhancement Ore",
 
   "item.genshincraft.polar_star": "Polar Star",
   "item.genshincraft.amos_bow": "Amos' Bow",
